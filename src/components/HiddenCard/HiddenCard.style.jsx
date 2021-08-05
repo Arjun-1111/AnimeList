@@ -17,6 +17,7 @@ export const Wrapper = styled.div`
 export const Title = styled.h5`
   position: absolute;
   font-size: 0.95rem;
+  overflow: hidden;
   top: 10px;
   left: 8px;
 

@@ -155,6 +155,7 @@ export const CharacterInfo = styled.div`
   height: 100%;
   backface-visibility: hidden;
   border-radius: 10px;
+  overflow: hidden;
   transform: rotateY(180deg);
 
   .CharacterInfo {

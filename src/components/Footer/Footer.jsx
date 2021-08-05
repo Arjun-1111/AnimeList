@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 const Footer = () => {
   return (
     <footer
-      class="footer"
+      className="footer"
       style={{
         width: "100%",
         background: "#263238",
@@ -13,7 +13,7 @@ const Footer = () => {
         marginTop: "2rem",
       }}
     >
-      <div class="icons">
+      <div className="icons">
         <LinkS
           to="Home"
           spy={true}
@@ -24,7 +24,7 @@ const Footer = () => {
         >
           Home
         </LinkS>
-        <p class="company-name">
+        <p className="company-name">
           AnimeList &copy; 2021, ALL Rights Reserved || Made By Arjun
         </p>
       </div>
